@@ -1,0 +1,227 @@
+<!doctype html>
+<html lang="en" dir="ltr" class="docs-wrapper plugin-docs plugin-id-default docs-version-current docs-doc-page docs-doc-id-agent-feature/agent-portal" data-has-hydrated="false">
+<head>
+<meta charset="UTF-8">
+<meta name="generator" content="Docusaurus v3.9.2">
+<title data-rh="true">Agent Portal Access | User Manual</title><meta data-rh="true" name="viewport" content="width=device-width,initial-scale=1"><meta data-rh="true" name="twitter:card" content="summary_large_image"><meta data-rh="true" property="og:url" content="https://tasnimsqa-strativ.github.io/user-manual/docs/agent-feature/agent-portal/"><meta data-rh="true" property="og:locale" content="en"><meta data-rh="true" name="docusaurus_locale" content="en"><meta data-rh="true" name="docsearch:language" content="en"><meta data-rh="true" name="docusaurus_version" content="current"><meta data-rh="true" name="docusaurus_tag" content="docs-default-current"><meta data-rh="true" name="docsearch:version" content="current"><meta data-rh="true" name="docsearch:docusaurus_tag" content="docs-default-current"><meta data-rh="true" property="og:title" content="Agent Portal Access | User Manual"><meta data-rh="true" name="description" content="Agent portal capabilities and restrictions"><meta data-rh="true" property="og:description" content="Agent portal capabilities and restrictions"><link data-rh="true" rel="icon" href="/user-manual/img/favicon.ico"><link data-rh="true" rel="canonical" href="https://tasnimsqa-strativ.github.io/user-manual/docs/agent-feature/agent-portal/"><link data-rh="true" rel="alternate" href="https://tasnimsqa-strativ.github.io/user-manual/docs/agent-feature/agent-portal/" hreflang="en"><link data-rh="true" rel="alternate" href="https://tasnimsqa-strativ.github.io/user-manual/docs/agent-feature/agent-portal/" hreflang="x-default"><script data-rh="true" type="application/ld+json">{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Agent Portal Access","item":"https://tasnimsqa-strativ.github.io/user-manual/docs/agent-feature/agent-portal"}]}</script><link rel="alternate" type="application/rss+xml" href="/user-manual/blog/rss.xml" title="User Manual RSS Feed">
+<link rel="alternate" type="application/atom+xml" href="/user-manual/blog/atom.xml" title="User Manual Atom Feed"><link rel="stylesheet" href="/user-manual/assets/css/styles.fc0ad750.css">
+<script src="/user-manual/assets/js/runtime~main.bb49ac2b.js" defer="defer"></script>
+<script src="/user-manual/assets/js/main.71300a08.js" defer="defer"></script>
+</head>
+<body class="navigation-with-keyboard">
+<svg style="display: none;"><defs>
+<symbol id="theme-svg-external-link" viewBox="0 0 24 24"><path fill="currentColor" d="M21 13v10h-21v-19h12v2h-10v15h17v-8h2zm3-12h-10.988l4.035 4-6.977 7.07 2.828 2.828 6.977-7.07 4.125 4.172v-11z"/></symbol>
+</defs></svg>
+<script>!function(){var t=function(){try{return new URLSearchParams(window.location.search).get("docusaurus-theme")}catch(t){}}()||function(){try{return window.localStorage.getItem("theme")}catch(t){}}();document.documentElement.setAttribute("data-theme",t||"light"),document.documentElement.setAttribute("data-theme-choice",t||"light")}(),function(){try{const c=new URLSearchParams(window.location.search).entries();for(var[t,e]of c)if(t.startsWith("docusaurus-data-")){var a=t.replace("docusaurus-data-","data-");document.documentElement.setAttribute(a,e)}}catch(t){}}()</script><div id="__docusaurus"><link rel="preload" as="image" href="/user-manual/img/logo.svg"><div role="region" aria-label="Skip to main content"><a class="skipToContent_fXgn" href="#__docusaurus_skipToContent_fallback">Skip to main content</a></div><nav aria-label="Main" class="theme-layout-navbar navbar navbar--fixed-top"><div class="navbar__inner"><div class="theme-layout-navbar-left navbar__items"><button aria-label="Toggle navigation bar" aria-expanded="false" class="navbar__toggle clean-btn" type="button"><svg width="30" height="30" viewBox="0 0 30 30" aria-hidden="true"><path stroke="currentColor" stroke-linecap="round" stroke-miterlimit="10" stroke-width="2" d="M4 7h22M4 15h22M4 23h22"></path></svg></button><a class="navbar__brand" href="/user-manual/"><div class="navbar__logo"><img src="/user-manual/img/logo.svg" alt="Logo" class="themedComponent_mlkZ themedComponent--light_NVdE"><img src="/user-manual/img/logo.svg" alt="Logo" class="themedComponent_mlkZ themedComponent--dark_xIcU"></div><b class="navbar__title text--truncate">User Manual</b></a><a aria-current="page" class="navbar__item navbar__link navbar__link--active" href="/user-manual/docs/intro/">Documentation</a></div><div class="theme-layout-navbar-right navbar__items navbar__items--right"><div class="toggle_vylO colorModeToggle_DEke"><button class="clean-btn toggleButton_gllP toggleButtonDisabled_aARS" type="button" disabled="" title="system mode" aria-label="Switch between dark and light mode (currently system mode)"><svg viewBox="0 0 24 24" width="24" height="24" aria-hidden="true" class="toggleIcon_g3eP lightToggleIcon_pyhR"><path fill="currentColor" d="M12,9c1.65,0,3,1.35,3,3s-1.35,3-3,3s-3-1.35-3-3S10.35,9,12,9 M12,7c-2.76,0-5,2.24-5,5s2.24,5,5,5s5-2.24,5-5 S14.76,7,12,7L12,7z M2,13l2,0c0.55,0,1-0.45,1-1s-0.45-1-1-1l-2,0c-0.55,0-1,0.45-1,1S1.45,13,2,13z M20,13l2,0c0.55,0,1-0.45,1-1 s-0.45-1-1-1l-2,0c-0.55,0-1,0.45-1,1S19.45,13,20,13z M11,2v2c0,0.55,0.45,1,1,1s1-0.45,1-1V2c0-0.55-0.45-1-1-1S11,1.45,11,2z M11,20v2c0,0.55,0.45,1,1,1s1-0.45,1-1v-2c0-0.55-0.45-1-1-1C11.45,19,11,19.45,11,20z M5.99,4.58c-0.39-0.39-1.03-0.39-1.41,0 c-0.39,0.39-0.39,1.03,0,1.41l1.06,1.06c0.39,0.39,1.03,0.39,1.41,0s0.39-1.03,0-1.41L5.99,4.58z M18.36,16.95 c-0.39-0.39-1.03-0.39-1.41,0c-0.39,0.39-0.39,1.03,0,1.41l1.06,1.06c0.39,0.39,1.03,0.39,1.41,0c0.39-0.39,0.39-1.03,0-1.41 L18.36,16.95z M19.42,5.99c0.39-0.39,0.39-1.03,0-1.41c-0.39-0.39-1.03-0.39-1.41,0l-1.06,1.06c-0.39,0.39-0.39,1.03,0,1.41 s1.03,0.39,1.41,0L19.42,5.99z M7.05,18.36c0.39-0.39,0.39-1.03,0-1.41c-0.39-0.39-1.03-0.39-1.41,0l-1.06,1.06 c-0.39,0.39-0.39,1.03,0,1.41s1.03,0.39,1.41,0L7.05,18.36z"></path></svg><svg viewBox="0 0 24 24" width="24" height="24" aria-hidden="true" class="toggleIcon_g3eP darkToggleIcon_wfgR"><path fill="currentColor" d="M9.37,5.51C9.19,6.15,9.1,6.82,9.1,7.5c0,4.08,3.32,7.4,7.4,7.4c0.68,0,1.35-0.09,1.99-0.27C17.45,17.19,14.93,19,12,19 c-3.86,0-7-3.14-7-7C5,9.07,6.81,6.55,9.37,5.51z M12,3c-4.97,0-9,4.03-9,9s4.03,9,9,9s9-4.03,9-9c0-0.46-0.04-0.92-0.1-1.36 c-0.98,1.37-2.58,2.26-4.4,2.26c-2.98,0-5.4-2.42-5.4-5.4c0-1.81,0.89-3.42,2.26-4.4C12.92,3.04,12.46,3,12,3L12,3z"></path></svg><svg viewBox="0 0 24 24" width="24" height="24" aria-hidden="true" class="toggleIcon_g3eP systemToggleIcon_QzmC"><path fill="currentColor" d="m12 21c4.971 0 9-4.029 9-9s-4.029-9-9-9-9 4.029-9 9 4.029 9 9 9zm4.95-13.95c1.313 1.313 2.05 3.093 2.05 4.95s-0.738 3.637-2.05 4.95c-1.313 1.313-3.093 2.05-4.95 2.05v-14c1.857 0 3.637 0.737 4.95 2.05z"></path></svg></button></div><div class="navbarSearchContainer_Bca1"></div></div></div><div role="presentation" class="navbar-sidebar__backdrop"></div></nav><div id="__docusaurus_skipToContent_fallback" class="theme-layout-main main-wrapper mainWrapper_z2l0"><div class="docsWrapper_hBAB"><button aria-label="Scroll back to top" class="clean-btn theme-back-to-top-button backToTopButton_sjWU" type="button"></button><div class="docRoot_UBD9"><aside class="theme-doc-sidebar-container docSidebarContainer_YfHR"><div class="sidebarViewport_aRkj"><div class="sidebar_njMd"><nav aria-label="Docs sidebar" class="menu thin-scrollbar menu_SIkG"><ul class="theme-doc-sidebar-menu menu__list"><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-1 menu__list-item"><a class="menu__link" href="/user-manual/docs/intro/"><span title="Welcome to Vaylo User Guide" class="linkLabel_WmDU">Welcome to Vaylo User Guide</span></a></li><li class="theme-doc-sidebar-item-category theme-doc-sidebar-item-category-level-1 menu__list-item menu__list-item--collapsed"><div class="menu__list-item-collapsible"><a class="categoryLink_byQd menu__link menu__link--sublist menu__link--sublist-caret" role="button" aria-expanded="false" href="/user-manual/docs/system-administration/intro/"><span title="System Administration" class="categoryLinkLabel_W154">System Administration</span></a></div></li><li class="theme-doc-sidebar-item-category theme-doc-sidebar-item-category-level-1 menu__list-item menu__list-item--collapsed"><div class="menu__list-item-collapsible"><a class="categoryLink_byQd menu__link menu__link--sublist menu__link--sublist-caret" role="button" aria-expanded="false" href="/user-manual/docs/Settings/email-configure/"><span title="Settings" class="categoryLinkLabel_W154">Settings</span></a></div></li><li class="theme-doc-sidebar-item-category theme-doc-sidebar-item-category-level-1 menu__list-item menu__list-item--collapsed"><div class="menu__list-item-collapsible"><a class="categoryLink_byQd menu__link menu__link--sublist menu__link--sublist-caret" role="button" aria-expanded="false" href="/user-manual/docs/tour-administration/tour-creation-to-booking/"><span title="Tour Administration" class="categoryLinkLabel_W154">Tour Administration</span></a></div></li><li class="theme-doc-sidebar-item-category theme-doc-sidebar-item-category-level-1 menu__list-item menu__list-item--collapsed"><div class="menu__list-item-collapsible"><a class="categoryLink_byQd menu__link menu__link--sublist menu__link--sublist-caret" role="button" aria-expanded="false" href="/user-manual/docs/itinerary-management/intro/"><span title="Itinerary Management" class="categoryLinkLabel_W154">Itinerary Management</span></a></div></li><li class="theme-doc-sidebar-item-category theme-doc-sidebar-item-category-level-1 menu__list-item"><div class="menu__list-item-collapsible"><a class="categoryLink_byQd menu__link menu__link--sublist menu__link--sublist-caret menu__link--active" role="button" aria-expanded="true" href="/user-manual/docs/agent-feature/intro/"><span title="Agent Feature" class="categoryLinkLabel_W154">Agent Feature</span></a></div><ul class="menu__list"><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-2 menu__list-item"><a class="menu__link" tabindex="0" href="/user-manual/docs/agent-feature/intro/"><span title="Agent Feature Overview" class="linkLabel_WmDU">Agent Feature Overview</span></a></li><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-2 menu__list-item"><a class="menu__link" tabindex="0" href="/user-manual/docs/agent-feature/setup/"><span title="Agent Setup" class="linkLabel_WmDU">Agent Setup</span></a></li><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-2 menu__list-item"><a class="menu__link" tabindex="0" href="/user-manual/docs/agent-feature/booking-process/"><span title="Booking Process" class="linkLabel_WmDU">Booking Process</span></a></li><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-2 menu__list-item"><a class="menu__link" tabindex="0" href="/user-manual/docs/agent-feature/commission/"><span title="Commission Rules" class="linkLabel_WmDU">Commission Rules</span></a></li><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-2 menu__list-item"><a class="menu__link" tabindex="0" href="/user-manual/docs/agent-feature/accounting/"><span title="Accounting Integration" class="linkLabel_WmDU">Accounting Integration</span></a></li><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-2 menu__list-item"><a class="menu__link menu__link--active" aria-current="page" tabindex="0" href="/user-manual/docs/agent-feature/agent-portal/"><span title="Agent Portal Access" class="linkLabel_WmDU">Agent Portal Access</span></a></li><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-2 menu__list-item"><a class="menu__link" tabindex="0" href="/user-manual/docs/agent-feature/limitations/"><span title="Phase 1 Limitations" class="linkLabel_WmDU">Phase 1 Limitations</span></a></li></ul></li><li class="theme-doc-sidebar-item-category theme-doc-sidebar-item-category-level-1 menu__list-item menu__list-item--collapsed"><div class="menu__list-item-collapsible"><a class="categoryLink_byQd menu__link menu__link--sublist menu__link--sublist-caret" role="button" aria-expanded="false" href="/user-manual/docs/customer-portal/intro/"><span title="Customer Portal" class="categoryLinkLabel_W154">Customer Portal</span></a></div></li></ul></nav></div></div></aside><main class="docMainContainer_TBSr"><div class="container padding-top--md padding-bottom--lg"><div class="row"><div class="col docItemCol_VOVn"><div class="docItemContainer_Djhp"><article><nav class="theme-doc-breadcrumbs breadcrumbsContainer_Z_bl" aria-label="Breadcrumbs"><ul class="breadcrumbs"><li class="breadcrumbs__item"><a aria-label="Home page" class="breadcrumbs__link" href="/user-manual/"><svg viewBox="0 0 24 24" class="breadcrumbHomeIcon_YNFT"><path d="M10 19v-5h4v5c0 .55.45 1 1 1h3c.55 0 1-.45 1-1v-7h1.7c.46 0 .68-.57.33-.87L12.67 3.6c-.38-.34-.96-.34-1.34 0l-8.36 7.53c-.34.3-.13.87.33.87H5v7c0 .55.45 1 1 1h3c.55 0 1-.45 1-1z" fill="currentColor"></path></svg></a></li><li class="breadcrumbs__item"><span class="breadcrumbs__link">Agent Feature</span></li><li class="breadcrumbs__item breadcrumbs__item--active"><span class="breadcrumbs__link">Agent Portal Access</span></li></ul></nav><div class="tocCollapsible_ETCw theme-doc-toc-mobile tocMobile_ITEo"><button type="button" class="clean-btn tocCollapsibleButton_TO0P">On this page</button></div><div class="theme-doc-markdown markdown"><header><h1>Agent Portal</h1></header>
+<p>Guide to agent portal access, capabilities, and limitations.</p>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="portal-access">Portal Access<a href="#portal-access" class="hash-link" aria-label="Direct link to Portal Access" title="Direct link to Portal Access" translate="no">​</a></h2>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="agent-portal-url">Agent Portal URL<a href="#agent-portal-url" class="hash-link" aria-label="Direct link to Agent Portal URL" title="Direct link to Agent Portal URL" translate="no">​</a></h3>
+<div class="language-text codeBlockContainer_Ckt0 theme-code-block" style="--prism-color:#393A34;--prism-background-color:#f6f8fa"><div class="codeBlockContent_QJqH"><pre tabindex="0" class="prism-code language-text codeBlock_bY9V thin-scrollbar" style="color:#393A34;background-color:#f6f8fa"><code class="codeBlockLines_e6Vv"><span class="token-line" style="color:#393A34"><span class="token plain">https://moresailing.co.uk/agent</span><br></span></code></pre></div></div>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="login-credentials">Login Credentials<a href="#login-credentials" class="hash-link" aria-label="Direct link to Login Credentials" title="Direct link to Login Credentials" translate="no">​</a></h3>
+<p><strong>Username:</strong> Agent&#x27;s company client email<br>
+<strong>Password:</strong> Configured password</p>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="multi-user-access">Multi-User Access<a href="#multi-user-access" class="hash-link" aria-label="Direct link to Multi-User Access" title="Direct link to Multi-User Access" translate="no">​</a></h3>
+<p>Multiple users from the same agent company can log in.</p>
+<p><strong>Shared Access:</strong></p>
+<ul>
+<li class="">Same commission rate</li>
+<li class="">Same company bookings</li>
+<li class="">Same permissions</li>
+<li class="">Same restrictions</li>
+</ul>
+<hr>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="agent-capabilities">Agent Capabilities<a href="#agent-capabilities" class="hash-link" aria-label="Direct link to Agent Capabilities" title="Direct link to Agent Capabilities" translate="no">​</a></h2>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="what-agents-can-do">What Agents CAN Do<a href="#what-agents-can-do" class="hash-link" aria-label="Direct link to What Agents CAN Do" title="Direct link to What Agents CAN Do" translate="no">​</a></h3>
+<p>✅ <strong>Login &amp; Authentication</strong></p>
+<ul>
+<li class="">Secure login with credentials</li>
+<li class="">Session management</li>
+<li class="">Password recovery</li>
+</ul>
+<p>✅ <strong>View Bookings</strong></p>
+<ul>
+<li class="">All bookings created by their company</li>
+<li class="">Booking details</li>
+<li class="">Passenger information</li>
+<li class="">Tour details</li>
+</ul>
+<p>✅ <strong>Booking Information</strong></p>
+<ul>
+<li class="">View booking status</li>
+<li class="">See passenger overview</li>
+<li class="">Check tour details</li>
+<li class="">View commission amount</li>
+</ul>
+<p>✅ <strong>Create New Bookings</strong></p>
+<ul>
+<li class="">Browse available tours</li>
+<li class="">Start new booking</li>
+<li class="">Enter passenger details</li>
+<li class="">Select services</li>
+</ul>
+<hr>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="access-restrictions">Access Restrictions<a href="#access-restrictions" class="hash-link" aria-label="Direct link to Access Restrictions" title="Direct link to Access Restrictions" translate="no">​</a></h2>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="what-agents-cannot-do">What Agents CANNOT Do<a href="#what-agents-cannot-do" class="hash-link" aria-label="Direct link to What Agents CANNOT Do" title="Direct link to What Agents CANNOT Do" translate="no">​</a></h3>
+<p>❌ <strong>Edit Bookings</strong></p>
+<ul>
+<li class="">Cannot modify confirmed bookings</li>
+<li class="">Cannot update passenger details</li>
+<li class="">Cannot change services</li>
+<li class="">Cannot adjust pricing</li>
+</ul>
+<p>❌ <strong>Cancel Bookings</strong></p>
+<ul>
+<li class="">Cannot cancel bookings</li>
+<li class="">Cannot request refunds</li>
+<li class="">Cannot modify booking status</li>
+</ul>
+<p>❌ <strong>Modify Passengers</strong></p>
+<ul>
+<li class="">Cannot edit passenger information</li>
+<li class="">Cannot add/remove passengers after confirmation</li>
+<li class="">Cannot update contact details</li>
+</ul>
+<p>❌ <strong>Make Payments</strong></p>
+<ul>
+<li class="">Cannot process payments in system</li>
+<li class="">Cannot view payment history</li>
+<li class="">Cannot access payment links</li>
+</ul>
+<p>❌ <strong>Change Services</strong></p>
+<ul>
+<li class="">Cannot add/remove add-ons</li>
+<li class="">Cannot modify transport</li>
+<li class="">Cannot change accommodation</li>
+</ul>
+<div class="theme-admonition theme-admonition-warning admonition_xJq3 alert alert--warning"><div class="admonitionHeading_Gvgb"><span class="admonitionIcon_Rf37"><svg viewBox="0 0 16 16"><path fill-rule="evenodd" d="M8.893 1.5c-.183-.31-.52-.5-.887-.5s-.703.19-.886.5L.138 13.499a.98.98 0 0 0 0 1.001c.193.31.53.501.886.501h13.964c.367 0 .704-.19.877-.5a1.03 1.03 0 0 0 .01-1.002L8.893 1.5zm.133 11.497H6.987v-2.003h2.039v2.003zm0-3.004H6.987V5.987h2.039v4.006z"></path></svg></span>Read-Only Access</div><div class="admonitionContent_BuS1"><p>Agent access is <strong>read-only</strong> after booking confirmation. All modifications must be requested through customer support.</p></div></div>
+<hr>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="portal-features">Portal Features<a href="#portal-features" class="hash-link" aria-label="Direct link to Portal Features" title="Direct link to Portal Features" translate="no">​</a></h2>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="dashboard">Dashboard<a href="#dashboard" class="hash-link" aria-label="Direct link to Dashboard" title="Direct link to Dashboard" translate="no">​</a></h3>
+<p>Agent dashboard shows:</p>
+<ul>
+<li class="">📊 Total bookings</li>
+<li class="">📅 Upcoming tours</li>
+<li class="">💰 Commission summary</li>
+<li class="">📋 Recent bookings</li>
+</ul>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="booking-list">Booking List<a href="#booking-list" class="hash-link" aria-label="Direct link to Booking List" title="Direct link to Booking List" translate="no">​</a></h3>
+<p><strong>Filter Options:</strong></p>
+<ul>
+<li class="">By date range</li>
+<li class="">By tour</li>
+<li class="">By booking status</li>
+<li class="">By passenger name</li>
+</ul>
+<p><strong>Sort Options:</strong></p>
+<ul>
+<li class="">Booking date</li>
+<li class="">Departure date</li>
+<li class="">Booking number</li>
+<li class="">Commission amount</li>
+</ul>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="booking-details-view">Booking Details View<a href="#booking-details-view" class="hash-link" aria-label="Direct link to Booking Details View" title="Direct link to Booking Details View" translate="no">​</a></h3>
+<p>Each booking displays:</p>
+<p><strong>General Information:</strong></p>
+<ul>
+<li class="">Booking number</li>
+<li class="">Booking date</li>
+<li class="">Tour name</li>
+<li class="">Departure date</li>
+<li class="">Booking status</li>
+</ul>
+<p><strong>Passenger Information:</strong></p>
+<ul>
+<li class="">Number of passengers</li>
+<li class="">Passenger names</li>
+<li class="">Age categories</li>
+<li class="">Special requirements</li>
+</ul>
+<p><strong>Financial Information:</strong></p>
+<ul>
+<li class="">Booking total</li>
+<li class="">Commission amount</li>
+<li class="">Net payable amount</li>
+<li class="">VAT breakdown</li>
+</ul>
+<p><strong>Services:</strong></p>
+<ul>
+<li class="">Transport details</li>
+<li class="">Pickup information</li>
+<li class="">Add-ons selected</li>
+<li class="">Accommodation type</li>
+</ul>
+<hr>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="user-interface">User Interface<a href="#user-interface" class="hash-link" aria-label="Direct link to User Interface" title="Direct link to User Interface" translate="no">​</a></h2>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="navigation-menu">Navigation Menu<a href="#navigation-menu" class="hash-link" aria-label="Direct link to Navigation Menu" title="Direct link to Navigation Menu" translate="no">​</a></h3>
+<div class="language-text codeBlockContainer_Ckt0 theme-code-block" style="--prism-color:#393A34;--prism-background-color:#f6f8fa"><div class="codeBlockContent_QJqH"><pre tabindex="0" class="prism-code language-text codeBlock_bY9V thin-scrollbar" style="color:#393A34;background-color:#f6f8fa"><code class="codeBlockLines_e6Vv"><span class="token-line" style="color:#393A34"><span class="token plain">Dashboard</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">├── My Bookings</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">├── Create New Booking</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">├── Reports</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">│   ├── Commission Summary</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">│   └── Booking History</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">└── Account Settings</span><br></span></code></pre></div></div>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="booking-card-example">Booking Card Example<a href="#booking-card-example" class="hash-link" aria-label="Direct link to Booking Card Example" title="Direct link to Booking Card Example" translate="no">​</a></h3>
+<div class="language-text codeBlockContainer_Ckt0 theme-code-block" style="--prism-color:#393A34;--prism-background-color:#f6f8fa"><div class="codeBlockContent_QJqH"><pre tabindex="0" class="prism-code language-text codeBlock_bY9V thin-scrollbar" style="color:#393A34;background-color:#f6f8fa"><code class="codeBlockLines_e6Vv"><span class="token-line" style="color:#393A34"><span class="token plain">┌─────────────────────────────────┐</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">│ BK-2024-001234                  │</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">│                                 │</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">│ Tour: Mediterranean Sailing    │</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">│ Departure: 15 Jun 2024         │</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">│ Passengers: 4                  │</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">│                                 │</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">│ Total: £2,400                  │</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">│ Commission (15%): -£300        │</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">│ ─────────────────────────────  │</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">│ Net Payable: £2,100            │</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">│                                 │</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">│ Status: Confirmed ✓            │</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">│                                 │</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">│ [View Details]                 │</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">└─────────────────────────────────┘</span><br></span></code></pre></div></div>
+<hr>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="portal-workflow">Portal Workflow<a href="#portal-workflow" class="hash-link" aria-label="Direct link to Portal Workflow" title="Direct link to Portal Workflow" translate="no">​</a></h2>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="viewing-bookings">Viewing Bookings<a href="#viewing-bookings" class="hash-link" aria-label="Direct link to Viewing Bookings" title="Direct link to Viewing Bookings" translate="no">​</a></h3>
+<div class="language-text codeBlockContainer_Ckt0 theme-code-block" style="--prism-color:#393A34;--prism-background-color:#f6f8fa"><div class="codeBlockContent_QJqH"><pre tabindex="0" class="prism-code language-text codeBlock_bY9V thin-scrollbar" style="color:#393A34;background-color:#f6f8fa"><code class="codeBlockLines_e6Vv"><span class="token-line" style="color:#393A34"><span class="token plain">┌─────────────┐</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">│ Agent Login │</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">└──────┬──────┘</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">       │</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">       ▼</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">┌─────────────┐</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">│  Dashboard  │</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">└──────┬──────┘</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">       │</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">       ▼</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">┌─────────────┐</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">│ My Bookings │</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">└──────┬──────┘</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">       │</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">       ├─► Filter by Date</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">       ├─► Filter by Tour</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">       ├─► Filter by Status</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">       └─► Search by Name</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">       </span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">       ▼</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">┌─────────────┐</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">│Select Booking│</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">└──────┬──────┘</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">       │</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">       ▼</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">┌─────────────┐</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">│View Details │</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">└─────────────┘</span><br></span></code></pre></div></div>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="creating-booking">Creating Booking<a href="#creating-booking" class="hash-link" aria-label="Direct link to Creating Booking" title="Direct link to Creating Booking" translate="no">​</a></h3>
+<div class="language-text codeBlockContainer_Ckt0 theme-code-block" style="--prism-color:#393A34;--prism-background-color:#f6f8fa"><div class="codeBlockContent_QJqH"><pre tabindex="0" class="prism-code language-text codeBlock_bY9V thin-scrollbar" style="color:#393A34;background-color:#f6f8fa"><code class="codeBlockLines_e6Vv"><span class="token-line" style="color:#393A34"><span class="token plain">┌─────────────┐</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">│ Dashboard   │</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">└──────┬──────┘</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">       │</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">       ▼</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">┌─────────────┐</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">│Create Booking│</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">└──────┬──────┘</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">       │</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">       ▼</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">┌─────────────┐</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">│ Select Tour │</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">└──────┬──────┘</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">       │</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">       ▼</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">┌─────────────┐</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">│Enter Details│</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">└──────┬──────┘</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">       │</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">       ▼</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">┌─────────────┐</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">│   Confirm   │</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">└──────┬──────┘</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">       │</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">       ▼</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">┌─────────────┐</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">│Confirmation │</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">│   Email     │</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">└─────────────┘</span><br></span></code></pre></div></div>
+<hr>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="session-management">Session Management<a href="#session-management" class="hash-link" aria-label="Direct link to Session Management" title="Direct link to Session Management" translate="no">​</a></h2>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="login-session">Login Session<a href="#login-session" class="hash-link" aria-label="Direct link to Login Session" title="Direct link to Login Session" translate="no">​</a></h3>
+<p><strong>Session Duration:</strong> 24 hours<br>
+<strong>Auto-logout:</strong> After 2 hours of inactivity<br>
+<strong>Remember Me:</strong> Optional (30 days)</p>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="security-features">Security Features<a href="#security-features" class="hash-link" aria-label="Direct link to Security Features" title="Direct link to Security Features" translate="no">​</a></h3>
+<p>✅ Secure HTTPS connection<br>
+<!-- -->✅ Password encryption<br>
+<!-- -->✅ Session timeout<br>
+<!-- -->✅ Login attempt limiting<br>
+<!-- -->✅ IP logging (security audit)</p>
+<hr>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="support--assistance">Support &amp; Assistance<a href="#support--assistance" class="hash-link" aria-label="Direct link to Support &amp; Assistance" title="Direct link to Support &amp; Assistance" translate="no">​</a></h2>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="for-booking-modifications">For Booking Modifications<a href="#for-booking-modifications" class="hash-link" aria-label="Direct link to For Booking Modifications" title="Direct link to For Booking Modifications" translate="no">​</a></h3>
+<p>Agents must contact support for:</p>
+<ul>
+<li class="">Editing confirmed bookings</li>
+<li class="">Cancelling bookings</li>
+<li class="">Changing passenger details</li>
+<li class="">Modifying services</li>
+</ul>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="contact-methods">Contact Methods<a href="#contact-methods" class="hash-link" aria-label="Direct link to Contact Methods" title="Direct link to Contact Methods" translate="no">​</a></h3>
+<p>📧 <strong>Email:</strong> <a href="mailto:support@moresailing.co.uk" target="_blank" rel="noopener noreferrer" class="">support@moresailing.co.uk</a><br>
+<!-- -->📞 <strong>Phone:</strong> +44 (0) 20 1234 5678<br>
+<!-- -->⏰ <strong>Hours:</strong> Mon-Fri, 9:00-17:00 GMT</p>
+<hr>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="best-practices">Best Practices<a href="#best-practices" class="hash-link" aria-label="Direct link to Best Practices" title="Direct link to Best Practices" translate="no">​</a></h2>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="for-agents">For Agents<a href="#for-agents" class="hash-link" aria-label="Direct link to For Agents" title="Direct link to For Agents" translate="no">​</a></h3>
+<p>✅ <strong>Before Confirming:</strong></p>
+<ul>
+<li class="">Double-check all passenger details</li>
+<li class="">Verify contact information</li>
+<li class="">Confirm service selections</li>
+<li class="">Review commission calculation</li>
+</ul>
+<p>✅ <strong>After Confirming:</strong></p>
+<ul>
+<li class="">Download confirmation email</li>
+<li class="">Save booking reference</li>
+<li class="">Communicate with customer</li>
+<li class="">Track departure date</li>
+</ul>
+<p>✅ <strong>Regular Checks:</strong></p>
+<ul>
+<li class="">Monitor upcoming departures</li>
+<li class="">Review commission reports</li>
+<li class="">Update customer information</li>
+<li class="">Check for system updates</li>
+</ul>
+<hr>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="important-reminders">Important Reminders<a href="#important-reminders" class="hash-link" aria-label="Direct link to Important Reminders" title="Direct link to Important Reminders" translate="no">​</a></h2>
+<div class="theme-admonition theme-admonition-tip admonition_xJq3 alert alert--success"><div class="admonitionHeading_Gvgb"><span class="admonitionIcon_Rf37"><svg viewBox="0 0 12 16"><path fill-rule="evenodd" d="M6.5 0C3.48 0 1 2.19 1 5c0 .92.55 2.25 1 3 1.34 2.25 1.78 2.78 2 4v1h5v-1c.22-1.22.66-1.75 2-4 .45-.75 1-2.08 1-3 0-2.81-2.48-5-5.5-5zm3.64 7.48c-.25.44-.47.8-.67 1.11-.86 1.41-1.25 2.06-1.45 3.23-.02.05-.02.11-.02.17H5c0-.06 0-.13-.02-.17-.2-1.17-.59-1.83-1.45-3.23-.2-.31-.42-.67-.67-1.11C2.44 6.78 2 5.65 2 5c0-2.2 2.02-4 4.5-4 1.22 0 2.36.42 3.22 1.19C10.55 2.94 11 3.94 11 5c0 .66-.44 1.78-.86 2.48zM4 14h5c-.23 1.14-1.3 2-2.5 2s-2.27-.86-2.5-2z"></path></svg></span>Read-Only</div><div class="admonitionContent_BuS1"><p>Remember, portal access is <strong>read-only</strong> after booking confirmation. Plan ahead and verify details before confirming.</p></div></div>
+<div class="theme-admonition theme-admonition-info admonition_xJq3 alert alert--info"><div class="admonitionHeading_Gvgb"><span class="admonitionIcon_Rf37"><svg viewBox="0 0 14 16"><path fill-rule="evenodd" d="M7 2.3c3.14 0 5.7 2.56 5.7 5.7s-2.56 5.7-5.7 5.7A5.71 5.71 0 0 1 1.3 8c0-3.14 2.56-5.7 5.7-5.7zM7 1C3.14 1 0 4.14 0 8s3.14 7 7 7 7-3.14 7-7-3.14-7-7-7zm1 3H6v5h2V4zm0 6H6v2h2v-2z"></path></svg></span>Customer Communication</div><div class="admonitionContent_BuS1"><p>You are responsible for all customer communication. The system does not send automated emails to end customers.</p></div></div>
+<div class="theme-admonition theme-admonition-warning admonition_xJq3 alert alert--warning"><div class="admonitionHeading_Gvgb"><span class="admonitionIcon_Rf37"><svg viewBox="0 0 16 16"><path fill-rule="evenodd" d="M8.893 1.5c-.183-.31-.52-.5-.887-.5s-.703.19-.886.5L.138 13.499a.98.98 0 0 0 0 1.001c.193.31.53.501.886.501h13.964c.367 0 .704-.19.877-.5a1.03 1.03 0 0 0 .01-1.002L8.893 1.5zm.133 11.497H6.987v-2.003h2.039v2.003zm0-3.004H6.987V5.987h2.039v4.006z"></path></svg></span>Data Accuracy</div><div class="admonitionContent_BuS1"><p>Ensure all data is accurate before confirmation, as you cannot edit bookings after confirmation.</p></div></div>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="next-steps">Next Steps<a href="#next-steps" class="hash-link" aria-label="Direct link to Next Steps" title="Direct link to Next Steps" translate="no">​</a></h2>
+<ul>
+<li class="">Review <a class="" href="/user-manual/docs/agent-feature/limitations/">Phase 1 Limitations</a></li>
+<li class="">Contact support for training</li>
+<li class="">Test booking creation</li>
+</ul></div></article><nav class="docusaurus-mt-lg pagination-nav" aria-label="Docs pages"><a class="pagination-nav__link pagination-nav__link--prev" href="/user-manual/docs/agent-feature/accounting/"><div class="pagination-nav__sublabel">Previous</div><div class="pagination-nav__label">Accounting Integration</div></a><a class="pagination-nav__link pagination-nav__link--next" href="/user-manual/docs/agent-feature/limitations/"><div class="pagination-nav__sublabel">Next</div><div class="pagination-nav__label">Phase 1 Limitations</div></a></nav></div></div><div class="col col--3"><div class="tableOfContents_bqdL thin-scrollbar theme-doc-toc-desktop"><ul class="table-of-contents table-of-contents__left-border"><li><a href="#portal-access" class="table-of-contents__link toc-highlight">Portal Access</a><ul><li><a href="#agent-portal-url" class="table-of-contents__link toc-highlight">Agent Portal URL</a></li><li><a href="#login-credentials" class="table-of-contents__link toc-highlight">Login Credentials</a></li><li><a href="#multi-user-access" class="table-of-contents__link toc-highlight">Multi-User Access</a></li></ul></li><li><a href="#agent-capabilities" class="table-of-contents__link toc-highlight">Agent Capabilities</a><ul><li><a href="#what-agents-can-do" class="table-of-contents__link toc-highlight">What Agents CAN Do</a></li></ul></li><li><a href="#access-restrictions" class="table-of-contents__link toc-highlight">Access Restrictions</a><ul><li><a href="#what-agents-cannot-do" class="table-of-contents__link toc-highlight">What Agents CANNOT Do</a></li></ul></li><li><a href="#portal-features" class="table-of-contents__link toc-highlight">Portal Features</a><ul><li><a href="#dashboard" class="table-of-contents__link toc-highlight">Dashboard</a></li><li><a href="#booking-list" class="table-of-contents__link toc-highlight">Booking List</a></li><li><a href="#booking-details-view" class="table-of-contents__link toc-highlight">Booking Details View</a></li></ul></li><li><a href="#user-interface" class="table-of-contents__link toc-highlight">User Interface</a><ul><li><a href="#navigation-menu" class="table-of-contents__link toc-highlight">Navigation Menu</a></li><li><a href="#booking-card-example" class="table-of-contents__link toc-highlight">Booking Card Example</a></li></ul></li><li><a href="#portal-workflow" class="table-of-contents__link toc-highlight">Portal Workflow</a><ul><li><a href="#viewing-bookings" class="table-of-contents__link toc-highlight">Viewing Bookings</a></li><li><a href="#creating-booking" class="table-of-contents__link toc-highlight">Creating Booking</a></li></ul></li><li><a href="#session-management" class="table-of-contents__link toc-highlight">Session Management</a><ul><li><a href="#login-session" class="table-of-contents__link toc-highlight">Login Session</a></li><li><a href="#security-features" class="table-of-contents__link toc-highlight">Security Features</a></li></ul></li><li><a href="#support--assistance" class="table-of-contents__link toc-highlight">Support &amp; Assistance</a><ul><li><a href="#for-booking-modifications" class="table-of-contents__link toc-highlight">For Booking Modifications</a></li><li><a href="#contact-methods" class="table-of-contents__link toc-highlight">Contact Methods</a></li></ul></li><li><a href="#best-practices" class="table-of-contents__link toc-highlight">Best Practices</a><ul><li><a href="#for-agents" class="table-of-contents__link toc-highlight">For Agents</a></li></ul></li><li><a href="#important-reminders" class="table-of-contents__link toc-highlight">Important Reminders</a></li><li><a href="#next-steps" class="table-of-contents__link toc-highlight">Next Steps</a></li></ul></div></div></div></div></main></div></div></div><footer class="theme-layout-footer footer footer--dark"><div class="container container-fluid"><div class="footer__bottom text--center"><div class="footer__copyright">Copyright © 2026 User Manual.</div></div></div></footer></div>
+</body>
+</html>
